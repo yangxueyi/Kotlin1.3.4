@@ -120,7 +120,7 @@ class MainActivity : AppCompatActivity(), LoginContract.LoginView {
             loginPresenter.loginResult()
 
 
-            val subList = mutableListOf.subList(n - 1, mutableListOf.size)
+          /*  val subList = mutableListOf.subList(n - 1, mutableListOf.size)
             newList.addAll(subList)
             val removeAll = mutableListOf.removeAll(subList)
             if (removeAll){
@@ -137,15 +137,7 @@ class MainActivity : AppCompatActivity(), LoginContract.LoginView {
                     Log.e("*********remove********","${mutableListOf[i]}")
                     m = 0
                 }
-            }
-
-
-            
-
-
-
-
-
+            }*/
         }
 
 

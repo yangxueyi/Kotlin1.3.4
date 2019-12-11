@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"/>-->
 
-  <com.yxy.kotlin26.view.MyTextView
+<!--  <com.yxy.kotlin26.view.MyTextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="22222222"
@@ -26,16 +26,16 @@
       app:layout_constraintEnd_toEndOf="parent"
       app:layout_constraintStart_toStartOf="parent"
       app:layout_constraintTop_toTopOf="parent"
-      tools:ignore="MissingConstraints" />
+      tools:ignore="MissingConstraints" />-->
 
 
-  <com.yxy.kotlin26.MyTextView
+<!--  <com.yxy.kotlin26.MyTextView
       android:layout_width="wrap_content"
       android:layout_height="wrap_content"
       android:text="555555555555555555555"
       tools:ignore="MissingConstraints"
       tools:layout_editor_absoluteX="139dp"
-      tools:layout_editor_absoluteY="46dp" />
+      tools:layout_editor_absoluteY="46dp" />-->
 
   <Button
       android:id="@+id/btn_two"
