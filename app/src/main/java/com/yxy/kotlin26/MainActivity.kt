@@ -94,6 +94,7 @@ class MainActivity : AppCompatActivity(), LoginContract.LoginView {
         }
 
 
+
         val mutableListOf = mutableListOf(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15)
         val removeList : MutableList<Int> = mutableListOf()
         val newList = mutableListOf<Int>()
