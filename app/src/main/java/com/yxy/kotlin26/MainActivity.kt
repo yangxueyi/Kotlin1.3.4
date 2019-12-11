@@ -100,6 +100,7 @@ class MainActivity : AppCompatActivity(), LoginContract.LoginView {
         var n = 5
 
 
+
         btn.setOnClickListener {
             loginPresenter.registerResult()
 //            var removeLast : Int? = null
