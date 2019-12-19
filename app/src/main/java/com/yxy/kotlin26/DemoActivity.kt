@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_demo.*
  * Created by YangXueYi
  * Time : jajaying on 2019/10/18 14:28
  */
-class DemoActivity : AppCompatActivity() {
+class DemoActivity : BaseActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

@@ -1,17 +1,19 @@
 package com.yxy.kotlin26
 
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.appcompat.app.AppCompatActivity
+import com.trello.rxlifecycle3.components.support.RxAppCompatActivity
 import kotlinx.android.synthetic.main.activity_two.*
 
-class TwoActivity : AppCompatActivity() {
+
+class TwoActivity : BaseActivity() {
 
     private  var myGoMainListenter: GoMainListenter? = null
+
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_two)
-
 
 
 
@@ -28,6 +30,10 @@ class TwoActivity : AppCompatActivity() {
 
     }
 
+    override fun onResume() {
+        super.onResume()
+
+    }
 
 
     fun setGoMainListenter(goMainListenter: GoMainListenter){

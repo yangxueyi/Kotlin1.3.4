@@ -62,7 +62,15 @@ dependencies {
 
     implementation 'com.github.LuckSiege.PictureSelector:picture_library:v2.3.0'
 
+//
+//    implementation 'com.tencent.tbs.tbssdk:sdk:43697'
 
-    implementation 'com.tencent.tbs.tbssdk:sdk:43697'
+    //判断网络是否连接
+    implementation 'com.github.pwittchen:reactivenetwork-rx2:3.0.6'
+    //和reactivenetwork配合使用
+    implementation 'com.trello.rxlifecycle3:rxlifecycle-kotlin:3.1.0'
+    implementation 'com.trello.rxlifecycle3:rxlifecycle-components:3.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.2.8'
+    /******************************和reactivenetwork配合使用***********************************************/
 
 }
